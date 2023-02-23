@@ -5,9 +5,9 @@ account: bradduthie
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5862001
-bundleId: 5688916
+bundleId: 6881276
 url: https://bradduthie.shinyapps.io/shiny_talk/
-when: 1647385201.87971
-lastSyncTime: 1647385201.87973
+when: 1677195213.0562
+lastSyncTime: 1677195213.05622
 asMultiple: FALSE
 asStatic: FALSE
