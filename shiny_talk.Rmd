@@ -2,7 +2,7 @@
 title: "Introduction to Rmarkdown"
 subtitle: "https://bradduthie.shinyapps.io/shiny_talk/#1"
 author: "Brad Duthie"
-date: "16 March 2022"
+date: "24 FEB 2023"
 output: 
   ioslides_presentation: 
     logo: images/SCC_Logo_slide_sm.png
@@ -893,6 +893,13 @@ Shiny can be used [to do many things](https://shiny.rstudio.com/gallery/). Two w
 2. Embedding data or model results into slides
 
 A simple example with the Bumpus data set demonstrates both 1 and 2.
+
+## Bumpus dataset
+
+```{r echo = FALSE}
+bumpus <- read.csv(file = "data/Bumpus_data.csv");
+knitr::kable(head(bumpus));
+```
 
 
 ## How does shiny work?
